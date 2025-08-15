@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMMS.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <div id="home">
+            <div id="title_box">
+                <div id="p_logo" class="scal_anim"></div>
+                <div id="p_title"><a href="../code/index.html" id="return"></a> produits</div>
+                <input type="search"  name="" id="search" placeholder="recherche">
+            </div>
+        </div>
+         <div id="type_bar_p">
+        <div class="type_element"  name="Réactifs chimiques">
+            <div class="type_face" name="Réactifs chimiques"></div>
+            <div class="tb_icon" id="tbi1"></div>
+            <p class="tb_name">Réactifs chimiques</p>
+        </div>
+        <div class="type_element" name="Milieux de culture"> 
+            <div class="type_face" name="Milieux de culture"></div>
+            <div class="tb_icon" id="tbi2"></div>
+            <p class="tb_name">Milieux de culture</p>
+        </div>
+        <div class="type_element" name="Verrerie & Consommables">
+            <div class="type_face" name="Verrerie & Consommables"></div>
+            <div class="tb_icon" id="tbi3"></div>
+            <p class="tb_name">Verrerie & Consommables</p>
+        </div>
+        <div class="type_element" name="Equipements de laboratoire">
+            <div class="type_face" name="Equipements de laboratoire"></div>
+            <div class="tb_icon" id="tbi4"></div>
+            <p class="tb_name">Equipements de laboratoire</p>
+        </div>
+    </div>
+
+    <div id="pp_container_2">
+        <div id="nore">
+            <div id="noricon"></div>  <div id="nortxt">Aucun produit trouvé</div>
+        </div>
+    </div>
+ 
+
+    </main>
+
+   
+    
+    
+
+    <footer>
+
+        <div id="information">
+            <div id="footer_contact">
+                <div id="footer_contact_bar">
+                    <a href="https://www.instagram.com/emms_medical?igsh=MXN1eGp2a2lmMmJjZw==" id="fc_instagram" class="ficon"></a>
+                    <a href="https://www.facebook.com/share/16ywnhEtoq/" id="fc_facebook" class="ficon"></a>
+                    <a href="" id="fc_mail" class="ficon"></a>
+                </div>
+                <div class="f_contact"><div id="f_phone"></div> 0797033879</div>
+                <div class="f_contact"><div id="f_mail"></div> bachiriacil03@gmail.com</div>
+                <div class="f_contact"><div id="f_location"></div> rue soumaa - blida</div>
+            </div>
+            <div id="logo"></div>
+            <div id="map">
+                <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1122.0618733388171!2d2.8719112622748586!3d36.501611934777976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128f095b3eb32a03%3A0x25a6484b8b999c1!2sOuled%20Ya%C3%AFch!5e0!3m2!1sfr!2sdz!4v1753541643707!5m2!1sfr!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div id="copyright"> &copy; 2025 EMMS . All rights reserved.</div>
+    </footer>
+</body>
+</html>
+<script src="script.js" type="module"></script>
+<SCript type="module" >
+
+    import {p_scroll ,product_filter,search} from "./script.js"
+    product_filter(true)
+    setTimeout(()=>{search()} ,1000)
+    
+    
+</SCript>
